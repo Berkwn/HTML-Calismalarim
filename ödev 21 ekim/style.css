@@ -1,0 +1,133 @@
+
+.navbar{
+           
+            
+    width: 100%;
+    background-color: lightblue;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar ul{
+   display: flex;
+   justify-content: center; 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+    padding: 30px;
+}
+
+.image{
+  
+   width: 100%;
+   height: 300px;
+    
+}
+
+div img{
+   
+    background-size: contain;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+}
+
+.site-container{
+    background-color: lightblue;
+    display: flex;
+    height: 40vh;
+}
+
+.right ul li a {
+   
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.right{
+
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right ul li{
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.left ul{
+
+    display: flex;
+    list-style-type: none;
+    
+
+}
+
+.left ul li{
+
+    list-style-type: none;
+    padding: 5px;
+}
+
+.en-son{
+   
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+.yazı-container{margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    height: 500px;
+    background-color: burlywood;
+    border:5px solid black
+}
+
+.content1{
+    background-color: rgb(197, 194, 232);
+    border: 1px solid black;
+    margin: 6px;
+    
+}
+.content2{
+    margin: 6px;
+    border: 1px solid black;
+    background-color: rgb(197, 194, 232);
+
+}
+.content3{
+    margin: 6px;
+    border: 1px solid black;
+}
+.btn{ text-align: center;}
